@@ -422,7 +422,9 @@ void comMove(bool player)
    int x;
    bool run = true;
      
-   x = roulette(player);  
+      cout << "one1" << endl;
+   x = roulette(player); 
+      cout << "one2" << endl;  
    
    if(!player)
    {
